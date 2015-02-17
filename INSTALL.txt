@@ -1,0 +1,13 @@
+This implementation of ICP algorithms requires an external library
+ANN for an efficient kd-tree implementation.  Unfortunately under
+Window's environment, ANN can only be compiled as a 32-bits library.
+
+http://www.cs.umd.edu/~mount/ANN/
+
+
+perhaps someone can spend time writing a CMakeLists.txt for it.
+
+Elvis C.S. Chen
+chene@robarts.ca
+
+March 03, 2014
